@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Review</title>
+  </head>
+<body>
+    <h1>Movie Reviews</h1>
+    <form action="review">
+        <label for="title">Movie Title
+            <input type="text" name="title" id="title">
+        </label>
+        <label for="rating">Rating 1-10
+            <input type="number" id="rating" min="0" max="10">
+        </label><br>
+        <input type="submit" id="submitBtn">
+    </form>
+    <div>
+        <ul id="movieList">
+
+        </ul>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="movies.js"></script>
+</body>
